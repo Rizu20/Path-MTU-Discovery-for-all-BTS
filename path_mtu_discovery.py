@@ -19,6 +19,7 @@ def path_mtu_finder(mrbts_ip):
         else:
             fail=s
         s=int(success+((fail-success)/2))
+        is_65500_flag=1
     
     return success
 
